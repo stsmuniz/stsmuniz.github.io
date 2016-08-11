@@ -1,0 +1,91 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 50px;
+}
+.footer {
+  position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #f5f5f5;
+    padding: 1em;
+}
+
+html, body {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1.title {
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 3em;
+}
+
+#logo {
+	display: block;
+	width: 175px;
+	height: 175px;
+	background-image: url('../img/logo_icon_guru.png');
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	margin: 0 auto;
+}
+
+#textoSigno .signos{
+	font-family: initial;
+}
+
+#textoSigno span {
+	font-weight: bold;
+}
+
+.simboloSigno {
+	display: block;
+	width: 100px;
+	height: 120px;
+	-webkit-background-size: 100px 100px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	margin: 0 auto;
+}
+
+.simboloSigno.aries {
+	background-image: url('../img/aries.png')
+}
+.simboloSigno.taurus {
+	background-image: url('../img/taurus.png')
+}
+.simboloSigno.gemini {
+	background-image: url('../img/gemini.png')
+}
+.simboloSigno.cancer {
+	background-image: url('../img/cancer.png')
+}
+.simboloSigno.leo {
+	background-image: url('../img/leo.png')
+}
+.simboloSigno.virgo {
+	background-image: url('../img/virgo.png')
+}
+.simboloSigno.libra {
+	background-image: url('../img/libra.png')
+}
+.simboloSigno.scorpion {
+	background-image: url('../img/scorpion.png')
+}
+.simboloSigno.sagittarius {
+	background-image: url('../img/sagittarius.png')
+}
+.simboloSigno.capricorn {
+	background-image: url('../img/capricorn.png')
+}
+.simboloSigno.aquarius {
+	background-image: url('../img/aquarius.png')
+}
+.simboloSigno.pisces {
+	background-image: url('../img/pisces.png')
+}
