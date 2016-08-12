@@ -10,6 +10,7 @@ function sorteiaSigno() {
 	{name: 'Libra', classname: 'libra'},
 	{name: 'Escorpião', classname: 'scorpion'},
 	{name: 'Sagitário', classname: 'sagittarius'},
+	{name: 'Serpentário', classname: 'ophiuchus'},
 	{name: 'Capricórnio', classname: 'capricorn'},
 	{name: 'Aquário', classname: 'aquarius'},
 	{name: 'Peixes', classname: 'pisces'}

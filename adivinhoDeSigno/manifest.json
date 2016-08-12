@@ -3,30 +3,39 @@
   "dir": "ltr",
   "name": "Adivinho de Signo",
   "short_name": "Adivinho de Signo",
-  "description": "Um webapp para revelar seu signo astrológico secreto",
+  "description": "Revele seu signo astrológico secreto.",
   "icons": [{
-    "src": "assets/img/icon/web/icon/icon.png",
+    "src": "assets/img/web/icon/icon.png",
     "sizes": "57x57",
     "type": "image/png"
   },{
-    "src": "assets/img/icon/web/icon/Icon-76.png",
+    "src": "assets/img/web/icon/Icon-76.png",
+    "sizes": "76x76"
+  }, {
+    "src": "assets/img/web/icon/Icon-76@2x.png",
     "sizes": "76x76"
   },{
-    "src": "assets/img/icon/web/icon/Icon-Small@2x.png",
+    "src": "assets/img/web/icon/Icon-Small@2x.png",
     "sizes": "58x58"
   }, {
-    "src": "assets/img/icon/web/icon/Icon-60@2x.png",
+    "src": "assets/img/web/icon/Icon-60@2x.png",
     "sizes": "120x120"
   }, {
-    "src": "assets/img/icon/web/icon/Icon-60@3x.png",
-    "sizes": "180x180"
+    "src": "assets/img/web/icon/icon-128.png",
+    "sizes": "128x128"
   }, {
-    "src": "assets/img/icon/web/icon/Icon-76@2x.png",
-    "sizes": "76x76"
+    "src": "assets/img/web/icon/icon-144.png",
+    "sizes": "144x144"
+  }, {
+    "src": "assets/img/web/icon/icon-256.png",
+    "sizes": "256x256"
+  }, {
+    "src": "assets/img/web/icon/icon-512.png",
+    "sizes": "512x512"
   }],
   "scope": "/adivinhoDeSigno/",
   "start_url": "/adivinhoDeSigno/index.html",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "portrait",
   "theme_color": "#d58512"
 }

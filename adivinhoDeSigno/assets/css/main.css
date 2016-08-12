@@ -33,7 +33,7 @@ h1.title {
 	display: block;
 	width: 175px;
 	height: 175px;
-	background-image: url('../img/logo_icon_guru.png');
+	background-image: url('../img/icon_guru.png');
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	margin: 0 auto;
@@ -85,6 +85,9 @@ h1.title {
 }
 .simboloSigno.sagittarius {
 	background-image: url('../img/sagittarius.png')
+}
+.simboloSigno.ophiuchus {
+	background-image: url('../img/ophiuchus.png')
 }
 .simboloSigno.capricorn {
 	background-image: url('../img/capricorn.png')
