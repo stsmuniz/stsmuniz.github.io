@@ -15,6 +15,32 @@ html, body {
 	font-family: 'Raleway', sans-serif;
 }
 
+#about-container {
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	display: none;
+}
+
+#about {
+	background-color: #f0ad4e;
+	border: 1px solid #eea236;
+	padding: 0 1em;
+	width: 90%;
+	margin: 3em auto;
+	border-radius: 0.5em;
+}
+
+#about-close {
+	position: relative;
+    top: 5px;
+    color: #5e3a08;
+    font-size: 2em
+}
+
 .footer {
 	position: absolute;
 	bottom: 0;
@@ -24,16 +50,29 @@ html, body {
 	padding: 1em;
 }
 
+.footer span {
+	color: black;
+}
+
+.footer a {
+	color: #5e3a08;
+}
+
 h1.title {
 	font-family: 'Uncial Antiqua', cursive;
 	font-size: 3em;
+}
+
+h2.subtitle {
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 2em;
 }
 
 #logo {
 	display: block;
 	width: 175px;
 	height: 175px;
-	background-image: url('../img/logo_icon_guru.png');
+	background-image: url('../img/icon_guru.png');
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	margin: 0 auto;
@@ -85,6 +124,9 @@ h1.title {
 }
 .simboloSigno.sagittarius {
 	background-image: url('../img/sagittarius.png')
+}
+.simboloSigno.ophiuchus {
+	background-image: url('../img/ophiuchus.png')
 }
 .simboloSigno.capricorn {
 	background-image: url('../img/capricorn.png')
